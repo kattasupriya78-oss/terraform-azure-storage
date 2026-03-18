@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "demo-rg"
+  name     = "demo-rg-demo"
   location = "Canada Central"
 }
 resource "azurerm_storage_account" "storage" {
